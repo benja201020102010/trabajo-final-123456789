@@ -1,0 +1,110 @@
+body {
+    font-family: 'arial', sans-serif; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+
+header {
+    background-color: #c8102e;
+    color: white;
+    padding: 20px 0;
+   
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tituloPrincipal{
+    margin-right: 2%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    background-color: #c8102e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #a50f24;
+    transform: scale(1.05);
+}
+
+
+.info {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #c8102e;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    max-width: 600px;
+    width: 80%;
+}
+
+
+.form-container {
+    margin-top: 30px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 60%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #c8102e;
+}
+
+button#btnCargar {
+    background-color: #c8102e;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button#btnCargar:hover {
+    background-color: #a50f24;
+}
+
+.mensaje {
+    color: green;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #c8102e;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}  
